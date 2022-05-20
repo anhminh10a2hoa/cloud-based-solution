@@ -4,15 +4,14 @@
 
 Media Pocket is a digital asset management platform
 
-Users can create projects, and create and upload assets inside that project.
+- Users can create projects, and create and upload assets inside that project.
+  - Optionally you can choose to create a more complex nested project hierarchy.
 
-Optionally you can choose to create a more complex nested project hierarchy.
-
-You can think of this Project<->Asset hierarchy similar to Directory<->File hierarchy.
+You can think of this `Project<->Asset` hierarchy similar to `Directory<->File` hierarchy on other file systems.
 
 # Goal of the coding task
 
-The goal of this coding task is to create a program that creates the following `Project<->Asset` hierarchy in Media Pocket:
+The goal of this coding task is to create a program that creates the following hierarchy in Media Pocket:
 
 ```bash
 project/
@@ -30,11 +29,19 @@ project/
   │       ├── asset
   │       └── asset
 ```
-
 based on a given JSON structuce in `structure.json` by utilizing the Media Pocket API.
 
-# Get started
+1. Create projects and assets following the structure mentioned above
+2. Add media to assets
 
-You can login to [Media Pocket testwork environment](https://staging-testwork.devmediapocket.fi/) by the username and password we provided.
+The final results should look something like this:
 
-You will need to create an API key from Media Pocket UI. After this you can start utilizing the API with the help of our [API Documentation](https://staging-testwork.devmediapocket.fi/api/docs/V2.html)
+![Final results](final_results.png)
+
+
+# How to get started
+
+1. Login to [Media Pocket testwork environment](https://staging-testwork.devmediapocket.fi/) by the username and password we provided.
+2. Create an API key from Media Pocket UI.
+
+After this you can start utilizing the API with the help of our [API Documentation](https://staging-testwork.devmediapocket.fi/api/docs/V2.html)
