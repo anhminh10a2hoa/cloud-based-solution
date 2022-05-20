@@ -45,3 +45,7 @@ The final results should look something like this:
 2. Create an API key from Media Pocket UI.
 
 After this you can start utilizing the API with the help of our [API Documentation](https://staging-testwork.devmediapocket.fi/api/docs/V2.html)
+
+# Finishing up
+
+After you have finished making the program, don't forget to commit and push the final code into the repository.
