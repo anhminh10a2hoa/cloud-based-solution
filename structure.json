@@ -1,0 +1,75 @@
+{
+  "type": "directory",
+  "name": "Test work, top level project",
+  "children": [
+    {
+      "type": "file",
+      "name": "4_konehuone-scaled-e1644964759433-2048x1478.webp",
+      "file_url": "https://tvt-web-bucket.s3.eu-west-2.amazonaws.com/dev-recruit-testwork/4_konehuone-scaled-e1644964759433-2048x1478.webp"
+    },
+    {
+      "type": "directory",
+      "name": "Test work, 2nd level project 1",
+      "children": [
+        {
+          "type": "file",
+          "name": "Erkan_edit01_tuotontoyhtio%CC%88illejamainostoimistoille-2048x1366.webp",
+          "file_url": "https://tvt-web-bucket.s3.eu-west-2.amazonaws.com/dev-recruit-testwork/Erkan_edit01_tuotontoyhtio%CC%88illejamainostoimistoille-2048x1366.webp"
+        },
+        {
+          "type": "file",
+          "name": "Showroom_1_EV6A5196_tuotteet-2048x1314.webp",
+          "file_url": "https://tvt-web-bucket.s3.eu-west-2.amazonaws.com/dev-recruit-testwork/Showroom_1_EV6A5196_tuotteet-2048x1314.webp"
+        }
+      ]
+    },
+    {
+      "type": "directory",
+      "name": "Test work, 2nd level project 2",
+      "children": [
+        {
+          "type": "file",
+          "name": "baselight_new-2048x2033.webp",
+          "file_url": "https://tvt-web-bucket.s3.eu-west-2.amazonaws.com/dev-recruit-testwork/baselight_new-2048x2033.webp"
+        },
+        {
+          "type": "file",
+          "name": "hero_luovanalanammattilaiset1-2048x1029.webp",
+          "file_url": "https://tvt-web-bucket.s3.eu-west-2.amazonaws.com/dev-recruit-testwork/hero_luovanalanammattilaiset1-2048x1029.webp"
+        }
+      ]
+    },
+    {
+      "type": "directory",
+      "name": "Test work, 2nd level project 3",
+      "children": [
+        {
+          "type": "file",
+          "name": "hero_ratkaisut-2048x994.webp",
+          "file_url": "https://tvt-web-bucket.s3.eu-west-2.amazonaws.com/dev-recruit-testwork/hero_ratkaisut-2048x994.webp"
+        },
+        {
+          "type": "directory",
+          "name": "Test work, 3nd level project 1",
+          "children": [
+            {
+              "type": "file",
+              "name": "laiva1_valtameriristeilijo%CC%88ille-1-2048x1314.webp",
+              "file_url": "https://tvt-web-bucket.s3.eu-west-2.amazonaws.com/dev-recruit-testwork/laiva1_valtameriristeilijo%CC%88ille-1-2048x1314.webp"
+            },
+            {
+              "type": "file",
+              "name": "media_pocket_for_smooth_and_modern_media_management+(720p).mp4",
+              "file_url": "https://tvt-web-bucket.s3.eu-west-2.amazonaws.com/dev-recruit-testwork/media_pocket_for_smooth_and_modern_media_management+(720p).mp4"
+            },
+            {
+              "type": "file",
+              "name": "tuotteet_mediapocket-e1643921224107-2048x999.webp",
+              "file_url": "https://tvt-web-bucket.s3.eu-west-2.amazonaws.com/dev-recruit-testwork/tuotteet_mediapocket-e1643921224107-2048x999.webp"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
