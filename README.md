@@ -41,10 +41,10 @@ The final results should look something like this:
 
 # How to get started
 
-1. Login to [Media Pocket testwork environment](https://staging-testwork.devmediapocket.fi/) by the username and password we provided.
+1. Login to Media Pocket testwork environment `https://[ACCOUNT_NAME].devmediapocket.fi/` by the username and password we provided.
 2. Create an API key from Media Pocket UI.
 
-After this you can start utilizing the API with the help of our [API Documentation](https://staging-testwork.devmediapocket.fi/api/docs/V2.html)
+After this you can start utilizing the API with the help of our API Documentation: `/api/docs/V2.html`
 
 # Finishing up
 
