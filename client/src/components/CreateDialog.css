@@ -1,0 +1,23 @@
+.inputContainer {
+  margin-top: 16px;
+}
+
+.createDialogInputLabel {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.createDialogTagItem {
+  text-transform: none !important;
+  margin-right: 8px !important;
+  margin-bottom: 8px!important;
+}
+
+.createDialogPublicWarning {
+  display: flex;
+  align-items: center;
+}
+
+.createDialogActionButton {
+  font-weight: bold;
+}

@@ -1,0 +1,24 @@
+.searchBar {
+  display: flex;
+  margin-top: 16px;
+}
+
+.searchBarInput {
+  margin-right: 16px !important;
+}
+
+.searchBarFilterButton {
+  font-size: 16px !important;
+  text-transform: none !important;
+  color: #b4b4b4 !important;
+  border-radius: 20px !important;
+  margin-right: 16px !important;
+}
+
+.searchBarStatsIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  cursor: pointer;
+}

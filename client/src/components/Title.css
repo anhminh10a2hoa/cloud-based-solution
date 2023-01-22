@@ -1,0 +1,22 @@
+.titleContainer {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  color: #6b5b95;
+  margin: 0 3px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.titleIcon {
+  cursor: pointer;
+  color: rgba(247, 245, 247, 0.763) !important;
+  font-size: 35px !important;
+  margin-left: 4px;
+}
+
+.titleDivider {
+  color: #fff;
+}

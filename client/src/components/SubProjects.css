@@ -1,0 +1,84 @@
+.subProjectTitle {
+  font-size: 20px;
+  color: #fff;
+  margin-top: 16px;
+}
+
+.subProjectItem {
+  height: 100px;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  background: linear-gradient(145deg, rgb(59, 59, 59) 0%, rgb(113, 113, 113) 100%) 0% 0% / cover;
+}
+
+.subProjectItem:hover {
+  filter: brightness(0.9);
+}
+
+.subProjectList {
+  margin-top: 16px;
+}
+
+.subProjectTextContainer {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(145deg, rgb(44, 101, 23) 0%, rgb(157, 208, 140) 100%);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.subProjectText {
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: italic;
+  letter-spacing: normal;
+  color: rgb(61, 113, 42);
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.subProjectFolderIcon {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  min-height: 24px;
+  background-color: rgba(65, 178, 23, 0.8);
+  border-radius: 50%;
+  pointer-events: none;
+  color: #fff;
+}
+
+.subProjectsErrorFetching {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 16px;
+}
+
+.subProjectsEmpty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 16px;
+}
+
+.subProjectItemTitle {
+  color: #fff;
+  margin-top: 4px;
+  font-size: 14px;
+}

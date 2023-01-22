@@ -1,0 +1,49 @@
+.utilsBar {
+  margin-top: 40px;
+}
+
+.utilsBarButton {
+  padding: 6px 16px !important;
+  font-size: 16px !important;
+  text-transform: none !important;
+}
+
+.utilsBarUploadButton {
+  background-color: #35958A !important;
+  color: #eaeaea !important;
+  border-radius: 12px !important;
+  margin-right: 8px !important;
+}
+
+.utilsBarCreatButton {
+  color: #b4b4b4 !important;
+  border-radius: 20px !important;
+}
+
+.utilsBarUploadButton:hover {
+  filter: brightness(0.9);
+}
+
+.utilsBarCreatButton:hover {
+  background-color: #535353 !important;
+  color: #fff;
+}
+
+.utilsBarDivider {
+  margin-top: 16px !important;
+  background-color:#535353!important;
+}
+
+.MuiList-root {
+  background-color: #383535;
+  color: #fff;
+}
+
+.utilsBarMenuItem {
+  margin: 4px 0 !important;
+}
+
+.utilsBarMenuItem:hover {
+  background-color: gray !important;
+  border-radius: 20px;
+}

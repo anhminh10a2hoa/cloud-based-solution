@@ -1,0 +1,93 @@
+.assetTitle {
+  font-size: 20px;
+  color: #fff;
+  margin-top: 16px;
+}
+
+.assetItem {
+  height: 200px;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  background: linear-gradient(145deg, rgb(59, 59, 59) 0%, rgb(113, 113, 113) 100%) 0% 0% / cover;
+}
+
+.assetItem:hover {
+  filter: brightness(0.9);
+}
+
+.assetList {
+  margin-top: 16px;
+}
+
+.assetTextContainer {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(145deg, rgb(79, 86, 76) 0%, rgb(188, 199, 184) 100%);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.assetText {
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: italic;
+  letter-spacing: normal;
+  color: rgb(42, 46, 41);
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.assetFolderIcon {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  min-height: 48px;
+  background-color: rgba(154, 155, 154, 0.8);
+  border-radius: 50%;
+  pointer-events: none;
+  color: #fff;
+}
+
+.assetsErrorFetching {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 16px;
+}
+
+.assetsEmpty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 16px;
+}
+
+.assetItemTitle {
+  color: #fff;
+  margin-top: 4px;
+  font-size: 14px;
+}
+
+.assetItemType {
+  background-color: gray;
+  padding: 4px 6px;
+  display: inline-flex;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-top: 8px;
+}

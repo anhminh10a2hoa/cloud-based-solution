@@ -1,0 +1,22 @@
+.addTag {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.addTagButton {
+  color: #eaeaea !important;
+  height: 32px !important;
+  margin: 4px !important;
+  border-radius: 16px !important;
+  font-size: 14.4px !important;
+  white-space: nowrap;
+  display: inline-flex;
+  justify-content: center;
+  background-color: #6b5b95 !important;
+  text-transform: none !important;
+}
+
+.addTagButton:hover {
+  filter: brightness(0.9);
+}

@@ -1,0 +1,38 @@
+.mainView {
+  padding: 16px 48px;
+}
+
+.mainViewErrorFetching {
+  margin-top: 24px;
+}
+
+.mainViewErrorText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #fff;
+}
+
+.mainViewErrorIcon {
+  color: rgb(222, 42, 42);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mainViewDivider {
+  margin-top: 16px !important;
+  background-color:#535353!important;
+}
+
+.mainViewAssetView {
+  display: flex;
+  background-color: #484747;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin-top: 24px;
+  color: #fff;
+  font-size: 18px;
+}
