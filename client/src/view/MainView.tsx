@@ -58,12 +58,12 @@ const MainView = () => {
 
   if(isError) {
     return (
-      <div className="mainViewErrorFetching">
+      <div className="mainViewErroreFtching">
         <div className="mainViewErrorIcon">
           <ReportProblemIcon />
         </div>
         <div className="mainViewErrorText">  
-          Failed to fetch the project with id {params.projectId}!
+          Failed to fetch the project {params.projectId ? `with id ${params.projectId}` : ""}!
         </div>
       </div>
     )
@@ -73,7 +73,7 @@ const MainView = () => {
     <div className="mainView">
       <AddTag tags={currentProject?.tags || []} handleAlert={handleAlert}/>
       {isLoading ? <Loading size={40}/> : <Title currentProjectTitle={currentProject?.title || ""} parentProjectId={currentProject?.projectId || null}/>}
-      {params.projectId ?
+      {!isLoading && (params.projectId ?
         <>
           <UtilsBar handleOpen={handleOpen} handleAlert={handleAlert}/>
           <SubProjects />
@@ -81,7 +81,7 @@ const MainView = () => {
           <SearchBar />
           <Assets />
           <CreateDialog open={openCreateDialog.open} type={openCreateDialog.type} handleClose={handleClose} handleAlert={handleAlert}/>
-        </> : <div className="mainViewAssetView">This is an asset view! Not implemented yet</div>
+        </> : <div className="mainViewAssetView">This is an asset view! Not implemented yet</div>)
       }
       <CustomizedSnackbar handleAlert={handleAlert} openAlert={openAlert} />
     </div>
